@@ -6,7 +6,13 @@ namespace CG2_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("What is your Name?");
+            Console.Write("Type your name here:");
+            string myFirstname;
+            myFirstname = Console.ReadLine();
+            Console.WriteLine("Hello," + myFirstname);
+            Console.ReadLine();
+
         }
     }
 }
